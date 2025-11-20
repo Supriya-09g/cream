@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payment - Ice Cream Store</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #fff7fb;
+        }
+        header {
+            background: #ff4da6;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 26px;
+            font-weight: bold;
+        }
+        .payment-box {
+            max-width: 500px;
+            margin: 50px auto;
+            padding: 30px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        input {
+            width: 80%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            padding: 12px 25px;
+            border: none;
+            background: #ff4da6;
+            color: white;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            opacity: 0.9;
+        }
+        footer {
+            background: #ff4da6;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<header>Payment Page</header>
+
+<div class="payment-box">
+    <h2>Enter Payment Details</h2>
+
+    <input type="text" placeholder="Card Holder Name" />
+    <input type="number" placeholder="Card Number" />
+    <input type="text" placeholder="Expiry Date (MM/YY)" />
+    <input type="number" placeholder="CVV" />
+
+    <button onclick="location.href='index.html'">Pay Now</button>
+
+    <p style="margin-top: 15px; font-size: 14px;">You will be redirected to Home Page.</p>
+</div>
+
+<footer>
+    © 2025 Amol Ice Cream. All Rights Reserved.
+</footer>
+
+</body>
+</html>
